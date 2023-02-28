@@ -1,0 +1,17 @@
+{
+    "name": "cinetpay-php/sdk",
+    "description": "sdk php pour l'api CinetPay",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Jeremie",
+            "email": "jeremie.cinetpay@cinetpay.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "CinetPay\\":"src/"
+        }
+    },
+    "require": {}
+}
