@@ -9,6 +9,7 @@
             "email": "jeremie.cinetpay@cinetpay.com"
         }
     ],
+    "minimum-stability": "stable",
     "autoload":{
         "psr-4":{
             "CinetPay\\":"src/"
