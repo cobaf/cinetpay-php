@@ -1,18 +1,18 @@
 {
-    "name": "cinetpay-php/sdk",
+    "name": "cinetpay_php/sdk",
     "description": "sdk php pour l'api CinetPay",
     "type": "package",
     "license": "mit",
     "authors": [
         {
             "name": "Jeremie",
-            "email": "jeremie.cinetpay@cinetpay.com"
+            "email": "jeremie.colle@cinetpay.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload":{
         "psr-4":{
-            "CinetPay\\":"src/"
+            "cinetpay_php\\sdk\\":"src/"
         }
     },
     "require": {

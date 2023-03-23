@@ -23,7 +23,7 @@
   * @author JEREMIE COLLE <support@cinetpay.com> 
   */
   //namespace CinetPay
-  namespace CinetPay\sdk;
+  namespace cinetpay_php\sdk;
   use \Exception;
 
   class CinetPay
@@ -292,6 +292,12 @@
         $id = "Woocommerce".sprintf('%06d', $id) . mt_rand(100, 9999);
 
         return $id;
+      }
+      //get current url server
+      public function getCurrentUrl()
+      {
+         return  $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]/";
+          
       }
       /**
        * @param $id

@@ -1,0 +1,14 @@
+# Ignorer des dossiers
+vendor
+notify
+return
+tests
+.idea
+.phpunit.result.cache
+
+# Ignorer les fichiers
+action.php
+index.php
+marchand.php
+
+
